@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		578C3B041FD8CC5D00325D61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3B031FD8CC5D00325D61 /* AppDelegate.m */; };
+		578C3B071FD8CC5D00325D61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3B061FD8CC5D00325D61 /* ViewController.m */; };
+		578C3B0A1FD8CC5D00325D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C3B081FD8CC5D00325D61 /* Main.storyboard */; };
+		578C3B0C1FD8CC5D00325D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578C3B0B1FD8CC5D00325D61 /* Assets.xcassets */; };
+		578C3B0F1FD8CC5D00325D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C3B0D1FD8CC5D00325D61 /* LaunchScreen.storyboard */; };
+		578C3B121FD8CC5D00325D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3B111FD8CC5D00325D61 /* main.m */; };
+		578C3B1C1FD8CC5D00325D61 /* DPPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3B1B1FD8CC5D00325D61 /* DPPasswordTests.m */; };
+		578C3B271FD8CC5E00325D61 /* DPPasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3B261FD8CC5E00325D61 /* DPPasswordUITests.m */; };
+		578C3B371FD8CCFC00325D61 /* DPPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3B361FD8CCFC00325D61 /* DPPasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		578C3B181FD8CC5D00325D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578C3AF71FD8CC5D00325D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578C3AFE1FD8CC5D00325D61;
+			remoteInfo = DPPassword;
+		};
+		578C3B231FD8CC5E00325D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578C3AF71FD8CC5D00325D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578C3AFE1FD8CC5D00325D61;
+			remoteInfo = DPPassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		578C3AFF1FD8CC5D00325D61 /* DPPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		578C3B021FD8CC5D00325D61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		578C3B031FD8CC5D00325D61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		578C3B051FD8CC5D00325D61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		578C3B061FD8CC5D00325D61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		578C3B091FD8CC5D00325D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		578C3B0B1FD8CC5D00325D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		578C3B0E1FD8CC5D00325D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		578C3B101FD8CC5D00325D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578C3B111FD8CC5D00325D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		578C3B171FD8CC5D00325D61 /* DPPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578C3B1B1FD8CC5D00325D61 /* DPPasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPPasswordTests.m; sourceTree = "<group>"; };
+		578C3B1D1FD8CC5D00325D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578C3B221FD8CC5E00325D61 /* DPPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578C3B261FD8CC5E00325D61 /* DPPasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPPasswordUITests.m; sourceTree = "<group>"; };
+		578C3B281FD8CC5E00325D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578C3B351FD8CCFC00325D61 /* DPPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPPasswordView.h; sourceTree = "<group>"; };
+		578C3B361FD8CCFC00325D61 /* DPPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPPasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578C3AFC1FD8CC5D00325D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578C3B141FD8CC5D00325D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578C3B1F1FD8CC5D00325D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578C3AF61FD8CC5D00325D61 = {
+			isa = PBXGroup;
+			children = (
+				578C3B011FD8CC5D00325D61 /* DPPassword */,
+				578C3B1A1FD8CC5D00325D61 /* DPPasswordTests */,
+				578C3B251FD8CC5E00325D61 /* DPPasswordUITests */,
+				578C3B001FD8CC5D00325D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		578C3B001FD8CC5D00325D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578C3AFF1FD8CC5D00325D61 /* DPPassword.app */,
+				578C3B171FD8CC5D00325D61 /* DPPasswordTests.xctest */,
+				578C3B221FD8CC5E00325D61 /* DPPasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578C3B011FD8CC5D00325D61 /* DPPassword */ = {
+			isa = PBXGroup;
+			children = (
+				578C3B341FD8CCDE00325D61 /* DPPasswordView */,
+				578C3B021FD8CC5D00325D61 /* AppDelegate.h */,
+				578C3B031FD8CC5D00325D61 /* AppDelegate.m */,
+				578C3B051FD8CC5D00325D61 /* ViewController.h */,
+				578C3B061FD8CC5D00325D61 /* ViewController.m */,
+				578C3B081FD8CC5D00325D61 /* Main.storyboard */,
+				578C3B0B1FD8CC5D00325D61 /* Assets.xcassets */,
+				578C3B0D1FD8CC5D00325D61 /* LaunchScreen.storyboard */,
+				578C3B101FD8CC5D00325D61 /* Info.plist */,
+				578C3B111FD8CC5D00325D61 /* main.m */,
+			);
+			path = DPPassword;
+			sourceTree = "<group>";
+		};
+		578C3B1A1FD8CC5D00325D61 /* DPPasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				578C3B1B1FD8CC5D00325D61 /* DPPasswordTests.m */,
+				578C3B1D1FD8CC5D00325D61 /* Info.plist */,
+			);
+			path = DPPasswordTests;
+			sourceTree = "<group>";
+		};
+		578C3B251FD8CC5E00325D61 /* DPPasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				578C3B261FD8CC5E00325D61 /* DPPasswordUITests.m */,
+				578C3B281FD8CC5E00325D61 /* Info.plist */,
+			);
+			path = DPPasswordUITests;
+			sourceTree = "<group>";
+		};
+		578C3B341FD8CCDE00325D61 /* DPPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				578C3B351FD8CCFC00325D61 /* DPPasswordView.h */,
+				578C3B361FD8CCFC00325D61 /* DPPasswordView.m */,
+			);
+			path = DPPasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578C3AFE1FD8CC5D00325D61 /* DPPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578C3B2B1FD8CC5E00325D61 /* Build configuration list for PBXNativeTarget "DPPassword" */;
+			buildPhases = (
+				578C3AFB1FD8CC5D00325D61 /* Sources */,
+				578C3AFC1FD8CC5D00325D61 /* Frameworks */,
+				578C3AFD1FD8CC5D00325D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPPassword;
+			productName = DPPassword;
+			productReference = 578C3AFF1FD8CC5D00325D61 /* DPPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		578C3B161FD8CC5D00325D61 /* DPPasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578C3B2E1FD8CC5E00325D61 /* Build configuration list for PBXNativeTarget "DPPasswordTests" */;
+			buildPhases = (
+				578C3B131FD8CC5D00325D61 /* Sources */,
+				578C3B141FD8CC5D00325D61 /* Frameworks */,
+				578C3B151FD8CC5D00325D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578C3B191FD8CC5D00325D61 /* PBXTargetDependency */,
+			);
+			name = DPPasswordTests;
+			productName = DPPasswordTests;
+			productReference = 578C3B171FD8CC5D00325D61 /* DPPasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		578C3B211FD8CC5D00325D61 /* DPPasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578C3B311FD8CC5E00325D61 /* Build configuration list for PBXNativeTarget "DPPasswordUITests" */;
+			buildPhases = (
+				578C3B1E1FD8CC5D00325D61 /* Sources */,
+				578C3B1F1FD8CC5D00325D61 /* Frameworks */,
+				578C3B201FD8CC5D00325D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578C3B241FD8CC5E00325D61 /* PBXTargetDependency */,
+			);
+			name = DPPasswordUITests;
+			productName = DPPasswordUITests;
+			productReference = 578C3B221FD8CC5E00325D61 /* DPPasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578C3AF71FD8CC5D00325D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = heaven;
+				TargetAttributes = {
+					578C3AFE1FD8CC5D00325D61 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					578C3B161FD8CC5D00325D61 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 578C3AFE1FD8CC5D00325D61;
+					};
+					578C3B211FD8CC5D00325D61 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 578C3AFE1FD8CC5D00325D61;
+					};
+				};
+			};
+			buildConfigurationList = 578C3AFA1FD8CC5D00325D61 /* Build configuration list for PBXProject "DPPassword" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 578C3AF61FD8CC5D00325D61;
+			productRefGroup = 578C3B001FD8CC5D00325D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578C3AFE1FD8CC5D00325D61 /* DPPassword */,
+				578C3B161FD8CC5D00325D61 /* DPPasswordTests */,
+				578C3B211FD8CC5D00325D61 /* DPPasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578C3AFD1FD8CC5D00325D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578C3B0F1FD8CC5D00325D61 /* LaunchScreen.storyboard in Resources */,
+				578C3B0C1FD8CC5D00325D61 /* Assets.xcassets in Resources */,
+				578C3B0A1FD8CC5D00325D61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578C3B151FD8CC5D00325D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578C3B201FD8CC5D00325D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578C3AFB1FD8CC5D00325D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578C3B071FD8CC5D00325D61 /* ViewController.m in Sources */,
+				578C3B371FD8CCFC00325D61 /* DPPasswordView.m in Sources */,
+				578C3B121FD8CC5D00325D61 /* main.m in Sources */,
+				578C3B041FD8CC5D00325D61 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578C3B131FD8CC5D00325D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578C3B1C1FD8CC5D00325D61 /* DPPasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578C3B1E1FD8CC5D00325D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578C3B271FD8CC5E00325D61 /* DPPasswordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		578C3B191FD8CC5D00325D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578C3AFE1FD8CC5D00325D61 /* DPPassword */;
+			targetProxy = 578C3B181FD8CC5D00325D61 /* PBXContainerItemProxy */;
+		};
+		578C3B241FD8CC5E00325D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578C3AFE1FD8CC5D00325D61 /* DPPassword */;
+			targetProxy = 578C3B231FD8CC5E00325D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		578C3B081FD8CC5D00325D61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578C3B091FD8CC5D00325D61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		578C3B0D1FD8CC5D00325D61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578C3B0E1FD8CC5D00325D61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		578C3B291FD8CC5E00325D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		578C3B2A1FD8CC5E00325D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578C3B2C1FD8CC5E00325D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9KTTR74H3;
+				INFOPLIST_FILE = DPPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaven.DPPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		578C3B2D1FD8CC5E00325D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9KTTR74H3;
+				INFOPLIST_FILE = DPPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaven.DPPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		578C3B2F1FD8CC5E00325D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9KTTR74H3;
+				INFOPLIST_FILE = DPPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaven.DPPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPPassword.app/DPPassword";
+			};
+			name = Debug;
+		};
+		578C3B301FD8CC5E00325D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9KTTR74H3;
+				INFOPLIST_FILE = DPPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaven.DPPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPPassword.app/DPPassword";
+			};
+			name = Release;
+		};
+		578C3B321FD8CC5E00325D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9KTTR74H3;
+				INFOPLIST_FILE = DPPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaven.DPPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DPPassword;
+			};
+			name = Debug;
+		};
+		578C3B331FD8CC5E00325D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9KTTR74H3;
+				INFOPLIST_FILE = DPPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaven.DPPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DPPassword;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578C3AFA1FD8CC5D00325D61 /* Build configuration list for PBXProject "DPPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578C3B291FD8CC5E00325D61 /* Debug */,
+				578C3B2A1FD8CC5E00325D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578C3B2B1FD8CC5E00325D61 /* Build configuration list for PBXNativeTarget "DPPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578C3B2C1FD8CC5E00325D61 /* Debug */,
+				578C3B2D1FD8CC5E00325D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578C3B2E1FD8CC5E00325D61 /* Build configuration list for PBXNativeTarget "DPPasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578C3B2F1FD8CC5E00325D61 /* Debug */,
+				578C3B301FD8CC5E00325D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578C3B311FD8CC5E00325D61 /* Build configuration list for PBXNativeTarget "DPPasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578C3B321FD8CC5E00325D61 /* Debug */,
+				578C3B331FD8CC5E00325D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 578C3AF71FD8CC5D00325D61 /* Project object */;
+}
